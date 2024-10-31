@@ -8,6 +8,14 @@ body{
     margin: 0 auto;
     margin-bottom: 200px;
 }
+@media screen and (max-width:500px) {
+    #parent{
+        width: 95%;
+       display: block;
+       margin: 0 auto;
+       margin-bottom: 100px;
+   }
+}
 header{
     background-color: black;
 
@@ -31,6 +39,16 @@ nav a{
     text-decoration: none;
     font-size: 25px;
 }
+#navitem{
+    margin-right: 10px;
+}
+@media screen and (max-width:500px) {
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
 span a{
     text-decoration: none;
 }
@@ -49,25 +67,25 @@ a:focus{
 }
 h1{
     font-size: 55px;
-    font-family: cursive ,math ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ,math ;
 }
 h2{
     font-size: 25px;
-    font-family: cursive,math ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,math ;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 li{
     font-size: 18px;
-    font-family:  cursive, math;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, math;
 }
 p{
     font-size: 18px;
-    font-family: cursive ,math;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ,math;
 }
 h3{
     font-size: 20px;
-    font-family: cursive,math ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,math ;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -80,8 +98,7 @@ h3{
     color: rgb(55, 116, 25);
 }
 #gotop{
-    font-family: cursive,math;
-    margin-left: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,math;
 }
 #gotop:hover{
     color: rgb(55, 116, 25);
@@ -89,12 +106,10 @@ h3{
 #gotop:focus{
     color: rgb(38, 38, 38);
 }
-#con-mat-ph{
-    margin-bottom: 100px;
-}
+
 @media  screen and (max-width:500px) {
     nav{
-        height: 60px;
+        height: 50px;
     }
     h1{
         font-size: 40px;

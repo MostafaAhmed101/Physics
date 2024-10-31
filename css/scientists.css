@@ -6,14 +6,14 @@ body{
      width: 70%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 @media screen and (max-width:500px) {
     #parent{
         width: 95%;
        display: block;
        margin: 0 auto;
-       margin-bottom: 200px;
+       margin-bottom: 100px;
    }
 }
 header{
@@ -38,6 +38,16 @@ nav a{
     text-decoration: none;
     font-size: 25px;
 }
+#navitem{
+    margin-right: 10px;
+}
+@media screen and (max-width:500px) {
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
 span a{
     text-decoration: none;
 }
@@ -56,25 +66,25 @@ a:focus{
 }
 h1{
     font-size: 55px;
-    font-family:cursive, math ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, math ;
 }
 h2{
     font-size: 25px;
-    font-family: cursive,math ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,math ;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 li{
     font-size: 18px;
-    font-family: cursive , math;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif , math;
 }
 p{
     font-size: 18px;
-    font-family: cursive , math;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif , math;
 }
 h3{
     font-size: 20px;
-    font-family: cursive ,math;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ,math;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -103,8 +113,8 @@ img:hover{
 }
 
 #gotop{
-    font-family: cursive,math;
-    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,math;
+    margin-bottom: 140px;
 }
 #gotop:hover{
     color: rgb(55, 116, 25);
@@ -146,7 +156,7 @@ img:hover{
     }
     @media  screen and (max-width:500px) {
         nav{
-            height: 60px;
+            height: 50px;
         }
         h1{
             font-size: 40px;
