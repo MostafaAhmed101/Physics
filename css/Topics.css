@@ -1,0 +1,108 @@
+body{
+    background-color: aliceblue;
+
+}
+#parent{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+header{
+    background-color: black;
+
+}
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+span a{
+    text-decoration: none;
+}
+#underfixed{
+    margin-top: 100px;
+}
+nav a:hover{
+    color: rgb(128, 128, 128);
+}
+li a:hover{
+    color: rgb(55, 116, 25);
+    text-decoration: underline;
+}
+a:focus{    
+    color: rgb(38, 38, 38);
+}
+h1{
+    font-size: 55px;
+    font-family: cursive ,math ;
+}
+h2{
+    font-size: 25px;
+    font-family: cursive,math ;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+li{
+    font-size: 18px;
+    font-family:  cursive, math;
+}
+p{
+    font-size: 18px;
+    font-family: cursive ,math;
+}
+h3{
+    font-size: 20px;
+    font-family: cursive,math ;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.unique{
+    color: gold;
+    text-decoration: none;
+}
+.unique:hover{
+    text-decoration: underline;
+    color: rgb(55, 116, 25);
+}
+#gotop{
+    font-family: cursive,math;
+    margin-left: 50%;
+}
+#gotop:hover{
+    color: rgb(55, 116, 25);
+}
+#gotop:focus{
+    color: rgb(38, 38, 38);
+}
+#con-mat-ph{
+    margin-bottom: 100px;
+}
+@media  screen and (max-width:500px) {
+    nav{
+        height: 60px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+footer {
+    border-top: 2px solid; 
+}
+.pfooter{
+    font-size: 12px;
+}

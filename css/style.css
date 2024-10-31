@@ -1,0 +1,78 @@
+body{
+    background-color: aliceblue;
+
+}
+#parent{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 170px;
+}
+header{
+    background-color: black;
+
+}
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#underfixed{
+    margin-top: 100px;
+}
+a:hover{
+    color: rgb(128, 128, 128);
+}
+a:focus{
+    color: rgb(38, 38, 38);
+}
+h1{
+    font-size: 55px;
+    font-family: cursive , math ;
+}
+h2{
+    font-size: 25px;
+    font-family: cursive ,math ;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+li{
+    font-size: 18px;
+    font-family: cursive , math;
+}
+p{
+    font-size: 18px;
+    font-family: cursive ,math;
+}
+@media  screen and (max-width:500px) {
+    nav{
+        height: 60px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+footer {
+    border-top: 2px solid; 
+    margin-top: 140px;
+}
+#gotop{
+    font-family: cursive,math;
+    margin-left: 50%;
+}
+.pfooter{
+    font-size: 12px;
+}
